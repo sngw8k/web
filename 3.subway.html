@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h1>FORM</h1>
+        <p>주문서를 작성하여 주십시오.</p>
+        <div>
+            <label for="">이름</label>
+            <input type="text" id="username" name="username">
+        </div>
+        <div>
+            <label for="">날짜</label>
+            <input type="date">
+        </div>
+        
+        <hr> 
+        <!-- 수평선 -->
+
+        
+        <p><b>샌드위치 선택</b></p>
+
+        <div>
+            <input type="radio" id="egg" value="egg" name="choice">
+            <label for="egg">에그 마요</label>
+        </div>
+        
+        <div>
+            <input type="radio" id="ball" value="ball" name="choice">
+            <label for="ball">미트볼</label>
+        </div>
+
+        <hr>
+
+        <h2>사이즈 선택</h2>
+        <input type="number" min="15" max="30" step="15" value="15">
+        
+        <hr>
+        
+        <h2>빵선택</h2>
+
+        <select name="bread" id="">
+            <option value="허니오트">허니오트</option>
+            <option value="하티이탈리안">하티이탈리안</option>
+            <option value="플랫프레드" disabled>플랫브레드</option>
+        </select>
+
+        <input type="submit" value="확인">
+    </form>
+</body>
+</html>
